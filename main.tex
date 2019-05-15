@@ -1,0 +1,233 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Aidan}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Mongan}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Computer Science Graduate} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Dublin, Ireland}\\
+	\icon{MapMarker}{12}{Clonskeagh}\\
+	\icon{Phone}{12}{+353 85 176 7977}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	%\icon{Globe}{12}{\href{https://alyx.vance.me}{alyx.vance.me}}\\
+	\icon{Github}{12}{\href{https://github.com/alyxvance}{github.com/monganai}}\\
+	\icon{At}{12}{\href{mailto:alyx@vance.me}{monganai@tcd.ie}}\\	
+	%\icon{Twitter}{12}{\href{https://twitter.com/@alyxvance}{@alyxvance}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.45\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	A recent computer science graduate with well developed communication, cooperation, and leadership skills from both leading and participating in many
+group projects throughout college. 
+working part-time resulted in exelent punctuality and timekeeping which has been
+demonstrated throughout my academic and working
+career. With 40 hour college weeks, my ability to work
+under pressure is strong.
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.45\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+\baritem{Java}{100}
+		
+		
+		\baritem{C++}{80}
+		\baritem{Microprocessors}{70}
+\baritem{Python}{60}
+		\baritem{Git}{55}
+		\baritem{Scalable Computing}{45}
+		\baritem{LaTeX}{40}
+
+	\end{barchart}
+\end{minipage}
+
+%\begin{center}
+%	\bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{8/2015 -- 2019}
+		{Customer Sales Advisor -> Bicycle Technician}
+		{Halfords}
+		{Working throughout college, and initially starting part time as a sales representative, my most
+recent role was a bicycle technician specializing in diagnosing and repairing electric bicycles.
+ \texttt{Electronics}\slashsep\texttt{Teamwork}\slashsep\texttt{Communication Skills}}
+	
+\end{entrylist}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2008 -- 2014}
+		{Leaving Certificate}
+		{St Benildus College}
+		{Completed Leaving certificate in 2014, achieving 460 CAO points, Achieving my top marks in Honours Maths \& Design Communication Graphics.}
+
+	\entry
+		{2014 -- 2019}
+		{B. A (mod) Computer Science}
+		{Trinity College Dublin}
+		{Currently awaiting Final Results but I am currently on track for a 2.1, Modules ranging from implementing logic gates in software to complex computer vision applications.}
+	
+\end{entrylist}
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	Academiec achievements
+%----------------------------------------------------------------------------------------
+
+\cvsect{Academic Achievements}
+
+\begin{entrylist}
+	\entry
+		{2019}
+		{Group Project - Winner}
+		{Trinity College Dublin}
+		{Head of hardware for project "IncuBetter", A standalone smart incubator designed for Médecins Sans Frontières (MSF)   \texttt{Python}\slashsep\texttt{openCV}\slashsep\texttt{Linux}\slashsep\texttt{Raspberry Pi} \slashsep\texttt{custom circuitry}}
+
+
+	\entry
+		{2019}
+		{Best Dissertation Pitch}
+		{Trinity College Dublin}
+		{Best presentation pitch of computer science 2019 regarding dissertation project "RideSafe"  \texttt{Android Studio}\slashsep\texttt{LaTex}\slashsep\texttt{Java}\slashsep\texttt{XML}\slashsep\texttt{Git}}
+	
+\end{entrylist}
+
+
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.15\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{English} - native\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+
+Technology has been of an interest since I was
+a child, nowadays I like to keep up to date with
+the cutting edge of both hardware and software
+reading articles online. practical activities include hardware repair/modifications for items
+around the house as well as for others.
+Expanding on my study of microprocessors in
+college I self taught soldering and some ba-
+sic electronic components. Personal projects
+range from the sound system and custom wire-
+less charger built into my car to a working pro-
+totype for "RippleSence" - winner of the Bolton
+Trust (DIT 2017).
+
+	
+	
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\vspace{1.2cm}
+	
+	Cycling has always been a huge part of my life
+in multiple ways. I have been an avid mountain
+biker since 2008 - In the early days I kept de-
+stroying my bike, having no income I self taught
+bicycle repair which ultimately led to my role at
+Halfords. My time off is generally spent at one
+of the local trail centres when the weather per-
+mitts.
+
+
+Fishkeeping is my most recent hobby, currently
+limited to two aquaria in my home I enjoy the
+challenging aspect of maintaining both tropical
+and marine mini-ecosystems as healthy as pos-
+sible.
+
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
